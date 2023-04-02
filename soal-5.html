@@ -1,0 +1,30 @@
+<!--Soal No. 5
+Buat sebuah program kuis.
+Tampilkan prompt() untuk meminta inputan dari user. Tampilan teks ‘Sebutkan kepanjangan dari nama IB (Impact Byte)?’
+Lakukan pengecekan apakah jawaban dari user sudah benar
+Jika benar, tampilkan alert ‘Selamat jawaban kamu benar’
+Jika salah, lakukan pengulangan untuk menampilkan prompt() yg sama hingga jawaban dari user benar-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        function kuis(){
+            const result = prompt("Sebutkan kepanjangan dari nama IB!");
+            if(result == "Impact Byte"){
+                alert("Selamat jawaban kamu benar!!")
+            }else(
+                kuis()
+                )
+            }
+            kuis()
+    </script>
+    <title>Soal-5</title>
+</head>
+<body>
+    
+</body>
+</html>
