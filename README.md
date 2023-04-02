@@ -1,10 +1,11 @@
 # Looping in Javascript
 
 Repository ini dibuat untuk memenuhi tugas materi looping dari Skilvul #Tech4Impact x Kampus Merdeka
+
 Nama    : Anggi Dwi Satriawan
 Track   : Back End Web Development
 ## Note :
-#### Please, if you want see result from javascript code you can see on console by inspect element
+### Please, if you want see result from javascript code you can see on console by inspect element
 
 Tugas ini dibuat dengan menggunakan bantuan tools berikut ini :
 - Visual Studio Code
